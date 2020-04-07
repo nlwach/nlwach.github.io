@@ -246,7 +246,6 @@ hr.light-100 {
 }
 @media (max-width: 576px) {
   html, body {
-    overflow-x: hidden;
 }
   .header-text {
   font-size: 20%;
