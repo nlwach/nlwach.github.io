@@ -10,6 +10,7 @@ html, body {
 }
 .header-text h1 {
   font-size: 600%;
+  word-wrap: break-word;
 }
 
 
