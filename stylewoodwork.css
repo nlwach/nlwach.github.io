@@ -11,9 +11,14 @@ html, body {
 .header-text h1 {
   font-size: 600%;
 }
+
+
+.header-sub {
+  font-size: 200%;
+}
 .img-logo {
   display: block;
-  max-width: 20%;
+  max-width: 40%;
   height: auto;
 }
 
@@ -89,11 +94,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.img-logo {
-  display: block;
-  max-width: 20%;
-  height: auto;
-}
+
 .carousel-caption{
   position: absolute;
   top: 50%;
@@ -226,14 +227,30 @@ hr.light-100 {
   padding: 8px 14px;
 }
 .display-4 {
-  font-size: 200%;
+  font-size: 400%;
 }
 .social a {
   font-size: 2.5em;
   padding: 1.2rem;
 }
+.header-text {
+  font-size: 60%;
+}
+.header-sub {
+  font-size: 200%;
+}
+.carousel-under {
+  font-size: 300%;
+}
+
 }
 @media (max-width: 576px) {
+  html, body {
+
+}
+  .carousel-under {
+  font-size: 200%;
+}
   .carousel-caption {
     top: 40%;
   }
@@ -255,11 +272,15 @@ hr.light-100 {
     display: none;
   }
   .display-4 {
-  font-size: 160%;
+  font-size: 250%;
 }
 .social a {
   font-size: 2em;
   padding: .7rem;
+}
+.carousel-con{
+  padding: 0;!important;
+  margin: 0;!important;
 }
 }
 
