@@ -9,8 +9,7 @@ html, body {
 
 }
 .header-text h1 {
-  font-size: 600%;
-  word-wrap: break-word;
+  font-size: 500%;
 }
 
 
@@ -112,18 +111,8 @@ body {
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
-.btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
-}
-.btn-primary:hover{
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
-}
-.jumbotron {
-  padding: 1rem;
-  border-radius: 0;
-}
+
+
 .padding {
   padding-bottom: 2rem;
 }
@@ -235,7 +224,7 @@ hr.light-100 {
   padding: 1.2rem;
 }
 .header-text {
-  font-size: 60%;
+  font-size: 80%;
 }
 .header-sub {
   font-size: 200%;
@@ -249,7 +238,10 @@ hr.light-100 {
   html, body {
 }
   .header-text {
-  font-size: 20%;
+  font-size: 40%;
+}
+  .header-sub {
+  font-size: 150%;
 }
   .carousel-under {
   font-size: 200%;
@@ -275,7 +267,7 @@ hr.light-100 {
     display: none;
   }
   .display-4 {
-  font-size: 100%;
+  font-size: 200%;
 }
 .social a {
   font-size: 2em;
