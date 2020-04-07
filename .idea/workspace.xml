@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fa94302-0780-4371-933e-4d86fa2a1bed" name="Default Changelist" comment="" />
+    <list default="true" id="1fa94302-0780-4371-933e-4d86fa2a1bed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/stylewoodwork.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylewoodwork.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586270755942</updated>
       <workItem from="1586270759780" duration="1237000" />
-      <workItem from="1586272902338" duration="1539000" />
+      <workItem from="1586272902338" duration="1757000" />
     </task>
     <servers />
   </component>
