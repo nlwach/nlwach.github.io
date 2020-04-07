@@ -246,7 +246,7 @@ hr.light-100 {
 }
 @media (max-width: 576px) {
   html, body {
-
+    overflow-x: hidden;
 }
   .carousel-under {
   font-size: 200%;
