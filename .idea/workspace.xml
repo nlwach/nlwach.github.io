@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa94302-0780-4371-933e-4d86fa2a1bed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/Lamp/Lamp_1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Lamp/Lamp_2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Lamp/Lamp_3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logog_final.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logog_final.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +26,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/Lamp" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/Lamp" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
@@ -52,6 +61,7 @@
       <updated>1586270755942</updated>
       <workItem from="1586270759780" duration="1237000" />
       <workItem from="1586272902338" duration="3714000" />
+      <workItem from="1587897267933" duration="538000" />
     </task>
     <servers />
   </component>
