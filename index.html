@@ -1,337 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Wach's Woodworking</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
-	<link href="stylewoodwork.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coaching & Relocation Service</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+      padding: 100px 0;
+    }
+    .section-padding {
+      padding: 60px 0;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 30px 0;
+    }
+  </style>
 </head>
-<body data-spy="scroll" data-target="#navbarResponsive">
+<body>
 
-<!-- Navigation -->
-<div class="container-fluid idbox" id="home">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-<div class="container-fluid">
-	<a class="navbar-brand" href="#"><img src="img/Logogsmalltop.png" class="img-logo"></a>
-	<button class="navbar-toggler ml-auto dropdown-menu-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarResponsive">
-		<ul class="navbar-nav ml-auto">
-			 <li class="nav-item">
-				 <a class="nav-link" href="#home">Home</a>
-			 </li>
-			 <li class="nav-item">
-				 <a class="nav-link" href="#welcome">About</a>
-			 </li>
-			 <li class="nav-item">
-				 <a class="nav-link" href="#philosophy">Philosophy</a>
-			 </li>
-			 <li class="nav-item">
-				 <a class="nav-link" href="#products">Products</a>
-			 </li>
-			 <li class="nav-item">
-				 <a class="nav-link" href="#connect">Connect</a>
-			 </li>
-		</ul>
-	</div>
-</div>
-</nav>
-</div>
-
-<header class="masthead">
-  <div class="container h-100">
-    <div class="row h-100 align-items-center">
-      <div class="col-12 text-center header-text">
-        <h1 class="font-weight-light">Wach's Woodworking</h1>
-        <p class="lead header-sub">Handmade masterpieces</p>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">CoRelocate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Über Uns</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Leistungen</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+        </ul>
       </div>
     </div>
-  </div>
-</header>
-<!--- Jumbotron -->
+  </nav>
 
+  <!-- Hero Section -->
+  <header class="hero text-center">
+    <div class="container">
+      <h1 class="display-4">Coaching & Relocation Service</h1>
+      <p class="lead">Individuelle Begleitung für Ihren Neustart im In- oder Ausland</p>
+      <a href="#contact" class="btn btn-primary btn-lg mt-4">Jetzt Kontakt aufnehmen</a>
+    </div>
+  </header>
 
-<!--- Welcome Section -->
-<div class="container-fluid padding idbox" id="welcome">
-	<div class="row welcome text-center">
-		<div class="col-12">
-			<h1 class="display-4">About</h1>
-		</div>
-		<hr>
-		<div class="col-12">
-			<p class="lead display-5">Every piece is a unique masterpiece and is crafted with care and love to create woodwork of the upmost quality.</p>
-		</div>
-	</div>
-</div>
+  <!-- Über Uns -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Über Uns</h2>
+          <p>Wir bieten umfassende Coaching- und Relocation-Dienstleistungen, die Sie bei Ihrem beruflichen oder privaten Umzug begleiten. Unser Ziel ist es, Ihnen den Übergang so reibungslos wie möglich zu gestalten.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://via.placeholder.com/500x300" alt="Team" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Leistungen -->
+  <section id="services" class="bg-light section-padding">
+    <div class="container">
+      <h2 class="text-center mb-5">Unsere Leistungen</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Relocation Services</h5>
+              <p class="card-text">Unterstützung bei Wohnungssuche, Behördengängen, Sprachkursen und Integration.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Karrierecoaching</h5>
+              <p class="card-text">Individuelle Beratung zu Karriereplanung, Bewerbungstraining und Persönlichkeitsentwicklung.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Interkulturelle Beratung</h5>
+              <p class="card-text">Workshops und Coaching zur erfolgreichen Anpassung an neue Kulturen und Arbeitswelten.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!--- Three Column Section -->
+  <!-- Kontaktformular -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <h2 class="text-center mb-5">Kontaktieren Sie uns</h2>
+      <form>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Ihr Name">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="email" class="form-label">E-Mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Ihre E-Mail">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Nachricht</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Ihre Nachricht..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Absenden</button>
+      </form>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2025 CoRelocate. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
 
-<!--- Fixed background -->
-
-
-
-<!--- Emoji Section -->
-
-  
-
-
-<!--- Cards -->
-
-<!--- Two Column Section -->
-<figure>
-	<div class="fixed-wrap">
-		<div id="fixed"></div>
-	</div>
-</figure>
-
-<!--- Meet the team -->
-<div class="container-fluid padding idbox">
-	<div class="welcome text-center" id="philosophy">
-		<div class="col-12">
-			<h1 class="display-4">My Philosophy</h1>
-		</div>
-		<hr>
-	</div>
-</div>
-
-<div class="container-fluid padding">
-	<div class="row text-center padding">
-		<div class="col-xs-12 col-md-4">
-			<i class="fas fa-hands"></i>
-			<h3>Handmade</h3>
-			<p>All products are handmade.</p>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-4">
-			<i class="fas fa-pencil-ruler"></i>
-			<h3>Precision</h3>
-			<p>All products can be modified to match your needs, e.g. your ring size or a special sized soap dish.</p>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-4">
-			<i class="fas fa-brush"></i>
-			<h3>Finish</h3>
-			<p>All products are coated with a finish which makes them more resistant.</p>
-		</div>
-
-	</div>
-</div>
-
-
-<!--- Two Column Section -->
-<figure>
-	<div class="fixed-wrap">
-		<div id="fixed1"></div>
-	</div>
-</figure>
-
-<!--- Two Column Section -->
-<!--- Meet the team -->
-<div class="container-fluid padding idbox">
-	<div class="welcome text-center" id="products">
-		<div class="col-12">
-			<h1 class="display-4">My Products</h1>
-			<hr>
-
-			<p>If you want to buy a product, please send me an e-Mail, so we can get in touch.</p>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid padding carousel-con">
-	<div class="row text-center padding">
-		<div class="col-lg-12 col-xl-6">
-			<div id="slides" class="carousel slide" data-ride="carousel">
-				<ul class="carousel-indicators">
-					<li data-target="#slides" data-slide-to="0"class="active"></li>
-					<li data-target="#slides" data-slide-to="1"></li>
-					<li data-target="#slides" data-slide-to="2"></li>
-				</ul>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-			 			<img src="img/Soap/DSC05639.JPG" class="rounded">
-		 			</div>
-					<div class="carousel-item">
-						<div class="d-flex align-items-center justify-content-center min-vh-100">
-			 				<img src="img/Soap/DSC05659.JPG" class="rounded">
-						</div>
-					</div>
-		 			<div class="carousel-item">
-						<div class="d-flex align-items-center justify-content-center min-vh-100">
-			 				<img src="img/Soap/DSC05699.JPG" class="rounded">
-						</div>
-					</div>
-				</div>
-			</div>
-			<h1 class="carousel-under">Soap Dish</h1>
-			<p class="carousel-p">Will be made to fit your soap</p>
-			<p class="carousel-price">Price: 29.99€</p>
-			<a href="mailto:wachswoodworking@noahwach.de?&subject=I%20want%20to%20buy%20a%20Ring" target="_blank"><button type="button" class="btn btn-outline-light btn-lg">Buy</button></a>
-		</div>
-		<div class="col-lg-12 col-xl-6">
-			<div id="slides2" class="carousel slide" data-ride="carousel">
-				<ul class="carousel-indicators">
-					<li data-target="#slides2" data-slide-to="0"class="active"></li>
-					<li data-target="#slides2" data-slide-to="1"></li>
-					<li data-target="#slides2" data-slide-to="2"></li>
-				</ul>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="img/Phone/1.JPG" class="rounded">
-						<div class="carousel-caption">
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="d-flex align-items-center justify-content-center min-vh-100">
-							 <img src="img/Phone/2.JPG" class="rounded">
-						</div>
-		 			</div>
-		 			<div class="carousel-item">
-						<div class="d-flex align-items-center justify-content-center min-vh-100">
-			 				<img src="img/Phone/3.JPG" class="rounded">
-						</div>
-		 			</div>
-				</div>
-			</div>
-			<h1 class="carousel-under">Phone Stand</h1>
-			<p class="carousel-p">With a hole to fit your charger</p>
-			<p class="carousel-price">Price: 29.99€</p>
-			<a href="mailto:wachswoodworking@noahwach.de?&subject=I%20want%20to%20buy%20a%20Phone%20Stand" target="_blank"><button type="button" class="btn btn-outline-light btn-lg">Buy</button></a>
-		</div>
-		<div class="col-lg-12 col-xl-6">
-			<div id="slides3" class="carousel slide" data-ride="carousel">
-				<ul class="carousel-indicators">
-					<li data-target="#slides3" data-slide-to="0"class="active"></li>
-					<li data-target="#slides3" data-slide-to="1"></li>
-					<li data-target="#slides3" data-slide-to="2"></li>
-				</ul>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-			 			<img src="img/Ring/DSC05635.JPG" class="rounded">
-						<div class="carousel-caption">
-			 			</div>
-		 			</div>
-					<div class="carousel-item">
-						<div class="d-flex align-items-center justify-content-center min-vh-100">
-							 <img src="img/Ring/DSC05691.JPG" class="rounded">
-						</div>
-		 			</div>
-		 			<div class="carousel-item">
-						<div class="d-flex align-items-center justify-content-center min-vh-100">
-			 				<img src="img/Ring/DSC05695.JPG" class="rounded">
-						</div>
-		 			</div>
-				</div>
-			</div>
-			<h1 class="carousel-under">Ring</h1>
-		<p class="carousel-p">All common sizes</p>
-		<p class="carousel-price">Price: 14.99€</p>
-
-			<a href="mailto:wachswoodworking@noahwach.de?&subject=I%20want%20to%20buy%20a%20Ring" target="_blank"><button type="button" class="btn btn-outline-light btn-lg">Buy</button></a>
-		</div>
-		<div class="col-lg-12 col-xl-6">
-			<div id="slides4" class="carousel slide" data-ride="carousel">
-				<ul class="carousel-indicators">
-					<li data-target="#slides4" data-slide-to="0"class="active"></li>
-					<li data-target="#slides4" data-slide-to="1"></li>
-					<li data-target="#slides4" data-slide-to="2"></li>
-				</ul>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-			 			<img src="img/Lamp/Lamp_1.JPG" class="rounded">
-						<div class="carousel-caption">
-			 			</div>
-		 			</div>
-					<div class="carousel-item">
-						<div class="d-flex align-items-center justify-content-center min-vh-100">
-							 <img src="img/Lamp/Lamp_2.JPG" class="rounded">
-						</div>
-		 			</div>
-		 			<div class="carousel-item">
-						<div class="d-flex align-items-center justify-content-center min-vh-100">
-			 				<img src="img/Lamp/Lamp_3.JPG" class="rounded">
-						</div>
-		 			</div>
-				</div>
-			</div>
-			<h1 class="carousel-under">Lamp</h1>
-		<p class="carousel-p">A wooden retro lamp</p>
-		<p class="carousel-price">Price: 39.99€</p>
-
-			<a href="mailto:wachswoodworking@noahwach.de?&subject=I%20want%20to%20buy%20a%20Lamp" target="_blank"><button type="button" class="btn btn-outline-light btn-lg">Buy</button></a>
-		</div>
-	</div>
-</div>
-
-
-<!--- Connect -->
-<div class="container-fluid padding idbox">
-	<div class="welcome text-center" id="connect">
-		<div class="col-12">
-			<h1 class="display-4">Connect</h1>
-		</div>
-		<hr>
-	</div>
-</div>
-<div class="container-fluid idbox">
-	<div class="row text-center padding">
-		<div class="col-12 social padding">
-			<a href="facebook.com"><i class="fab fa-facebook"></i></a>
-			<a href="facebook.com"><i class="fab fa-twitter"></i></a>
-			<a href="https://www.instagram.com/wachswoodworking/"><i class="fab fa-instagram"></i></a>
-			<a href="facebook.com"><i class="fab fa-youtube"></i></a>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-<!--- Footer -->
-<footer>
-	<div class="container-fluid padding">
-		<div class="row text-center">
-			<div class="col-lg-4">
-	<a class="navbar-brand" href="#"><img src="img/logo_small.png" class="img-footer"></a>
-			</div>
-			<div class="col-lg-4 footer-2">
-				<hr class="light" id="footer-top">
-				<h5>My e-Mail</h5>
-				<hr class="light">
-				<p>wachswoodworking@noahwach.de</p>
-			</div>
-			<div class="col-lg-4 footer-2">
-				<hr class="light" id="footer-top">
-				<h5>Coming from</h5>
-				<hr class="light">
-				<p>Heidelberg</p>
-			</div>
-			<div class="col-12 copyright-footer">
-				<hr class="light-100">
-				<h5>&copy; noahwach.de</h5>
-			</div>
-		</div>
-	</div>
-
-
-
-</footer>
-
-
-<!--- end -->
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-
-
-
-
