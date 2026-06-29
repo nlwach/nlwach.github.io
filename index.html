@@ -1,134 +1,198 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coaching & Relocation Service</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .hero {
-      background: url('https://via.placeholder.com/1920x600') no-repeat center center;
-      background-size: cover;
-      color: white;
-      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-      padding: 100px 0;
-    }
-    .section-padding {
-      padding: 60px 0;
-    }
-    footer {
-      background-color: #f8f9fa;
-      padding: 30px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah | Video Editor & Animator</title>
+
+    <!-- Google Fonts: Poppins for a modern, clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* --- CUSTOM STYLING --- */
+        :root {
+            --bg-dark: #0b0c10;       /* Deep cinematic background */
+            --bg-surface: #1f2833;    /* Slightly lighter card background */
+            --text-muted: #c5c6c7;    /* Soft grey for readability */
+            --accent-color: #66fcf1;  /* Neon cyan for attention */
+            --accent-hover: #45a29e;  /* Muted teal for hover states */
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-muted);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: rgba(11, 12, 16, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .navbar-brand {
+            color: var(--accent-color) !important;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+        .nav-link {
+            color: var(--text-muted) !important;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: var(--accent-color) !important;
+        }
+
+        /* Hero Text Gradient */
+        .text-gradient {
+            background: linear-gradient(90deg, var(--accent-color), #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Custom Animated Button */
+        .btn-custom {
+            background-color: var(--accent-color);
+            color: #000;
+            font-weight: 500;
+            border: none;
+            padding: 12px 35px;
+            border-radius: 50px; /* Pill shape */
+            transition: all 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: var(--accent-hover);
+            color: #fff;
+            transform: translateY(-3px); /* Subtle lift */
+            box-shadow: 0 8px 20px rgba(102, 252, 241, 0.3); /* Glow effect */
+        }
+
+        /* Service Cards & Portfolio Boxes */
+        .styled-box {
+            background-color: var(--bg-surface);
+            border: 1px solid transparent;
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .styled-box:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+
+        .portfolio-card {
+            background-color: var(--bg-surface);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .section-padding {
+            padding: 100px 0;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">CoRelocate</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">Über Uns</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Leistungen</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero text-center">
-    <div class="container">
-      <h1 class="display-4">Coaching & Relocation Service</h1>
-      <p class="lead">Individuelle Begleitung für Ihren Neustart im In- oder Ausland</p>
-      <a href="#contact" class="btn btn-primary btn-lg mt-4">Jetzt Kontakt aufnehmen</a>
-    </div>
-  </header>
-
-  <!-- Über Uns -->
-  <section id="about" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Über Uns</h2>
-          <p>Wir bieten umfassende Coaching- und Relocation-Dienstleistungen, die Sie bei Ihrem beruflichen oder privaten Umzug begleiten. Unser Ziel ist es, Ihnen den Übergang so reibungslos wie möglich zu gestalten.</p>
-        </div>
-        <div class="col-md-6">
-          <img src="https://via.placeholder.com/500x300" alt="Team" class="img-fluid rounded">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Leistungen -->
-  <section id="services" class="bg-light section-padding">
-    <div class="container">
-      <h2 class="text-center mb-5">Unsere Leistungen</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Relocation Services</h5>
-              <p class="card-text">Unterstützung bei Wohnungssuche, Behördengängen, Sprachkursen und Integration.</p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">NOAH L. WACH</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work">Showreel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
             </div>
-          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Karrierecoaching</h5>
-              <p class="card-text">Individuelle Beratung zu Karriereplanung, Bewerbungstraining und Persönlichkeitsentwicklung.</p>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="text-center" style="padding: 180px 0 120px 0;">
+        <div class="container">
+            <h1 class="display-3 mb-3">Hi, I'm <span class="text-gradient">Noah</span>.</h1>
+            <p class="lead mb-4" style="font-weight: 300; font-size: 1.5rem;">Video Editor & Animator</p>
+            <p class="mx-auto mb-5" style="max-width: 600px;">Crafting compelling visual stories through high-end editing, dynamic motion graphics, and precision sound design.</p>
+            <a href="#work" class="btn btn-custom text-decoration-none">Watch Showreel</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="about" class="section-padding" style="background-color: #08090c;">
+        <div class="container">
+            <h2 class="text-center mb-5">Creative Arsenal</h2>
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-6">
+                    <div class="styled-box text-center">
+                        <h3 class="h4 mb-3" style="color: var(--accent-color);">Video Editing</h3>
+                        <p class="mb-0">Narrative shaping, advanced color grading, and audio mixing tailored for YouTube, educational videos, and short films.</p>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-md-6">
+                    <div class="styled-box text-center">
+                        <h3 class="h4 mb-3" style="color: var(--accent-color);">Animation & VFX</h3>
+                        <p class="mb-0">Bringing static assets to life with 2D/3D motion graphics, kinetic typography, logo animations, and composite visual effects.</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Interkulturelle Beratung</h5>
-              <p class="card-text">Workshops und Coaching zur erfolgreichen Anpassung an neue Kulturen und Arbeitswelten.</p>
+    </section>
+
+    <!-- Portfolio / Work Section -->
+    <section id="work" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Work</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <!-- Styled Video Wrapper -->
+                    <div class="portfolio-card shadow-lg">
+                        <div class="ratio ratio-16x9">
+                            <!-- Replace src with your actual video link -->
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Noah Showreel" allowfullscreen></iframe>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="mb-2">Director's Showreel</h4>
+                            <p class="mb-0 text-muted">A fast-paced highlight reel of my favorite cuts and animations from recent client projects.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Kontaktformular -->
-  <section id="contact" class="section-padding">
-    <div class="container">
-      <h2 class="text-center mb-5">Kontaktieren Sie uns</h2>
-      <form>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Ihr Name">
-          </div>
-          <div class="col-md-6 mb-3">
-            <label for="email" class="form-label">E-Mail</label>
-            <input type="email" class="form-control" id="email" placeholder="Ihre E-Mail">
-          </div>
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding" style="background-color: #08090c;">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to collaborate?</h2>
+            <p class="mb-5">Whether you need an editor for your next big YouTube video or a sleek animation for your brand, I'm ready to help.</p>
+            <a href="mailto:hello@noahwach.com" class="btn btn-custom text-decoration-none">Email Me: hello@noahwach.com</a>
         </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Nachricht</label>
-          <textarea class="form-control" id="message" rows="5" placeholder="Ihre Nachricht..."></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Absenden</button>
-      </form>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="text-center">
-    <div class="container">
-      <p>&copy; 2025 CoRelocate. Alle Rechte vorbehalten.</p>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer class="text-center py-4" style="border-top: 1px solid #1f2833;">
+        <p class="mb-0 small" style="color: #666;">&copy; 2026 Noah Wach</p>
+        <p class="mb-0 small" style="color: #666;"> Untere Buettengasse 1</p>
+        <p class="mb-0 small" style="color: #666;"> 69121 Heidelberg</p>
+        <p class="mb-0 small" style="color: #666;"> hello@noahwach.de</p>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
